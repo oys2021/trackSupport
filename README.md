@@ -58,12 +58,22 @@ php artisan key:generate
 
 Edit .env to configure your database:
 
+# Database connection type: mysql, pgsql, sqlite, sqlsrv
 DB_CONNECTION=mysql
+
+# MySQL / PostgreSQL settings
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=activity_tracker
 DB_USERNAME=root
 DB_PASSWORD=secret
+
+# SQLite setting (used only if DB_CONNECTION=sqlite)
+# Set the full path to your SQLite file, e.g., database/database.sqlite
+DB_SQLITE_DATABASE=/full/path/to/database.sqlite
+
+# Enable foreign key constraints for SQLite
+DB_FOREIGN_KEYS=true
 
 ```
 
