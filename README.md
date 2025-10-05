@@ -53,7 +53,7 @@ npm run dev
 
 3.**Set Up Environment**
 ```bash
-cp .env.example .env
+ceate a .env
 php artisan key:generate
 
 Edit .env to configure your database:
