@@ -53,7 +53,11 @@ npm run dev
 
 3.**Set Up Environment**
 ```bash
-ceate a .env
+
+
+Right-click .env.example file → Copy.
+
+Right-click in the project folder → Paste → rename the copied file to .env.
 php artisan key:generate
 
 Edit .env to configure your database:
