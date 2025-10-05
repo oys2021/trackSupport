@@ -75,6 +75,7 @@ php artisan migrate --seed
 5. 📘 **Serve the Application**
 ```bash
 php artisan serve
+The system will be available at http://127.0.0.1:8000.
 ```
 
 📖 Usage
