@@ -1,4 +1,4 @@
-# 📝 Wallet & Transactions API with Django REST Framework
+# 📝 Activity Tracker for Support Team
 
 This project is an Activity Tracker built with Laravel. It allows the applications support team to track daily activities, update activity statuses, add remarks, view activity histories, and manage handovers between team members.
 
