@@ -6,7 +6,7 @@ use App\Http\Controllers\ActivityController;
 use App\Http\Controllers\ActivityUpdateController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('activities.index');
 });
 
 Route::get('/register',[AuthController::class, 'showRegister'])->name('show.register');
@@ -17,6 +17,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 
 Route::middleware(['auth'])->group(function () {
+
 
 
    Route::get('activities', [ActivityController::class, 'index'])->name('activities.index');
